@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "clean-respect-430616-c9",
+  "private_key_id": "45ad4cf4b349f86e56d3d2a2f8990fb76d448913",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCZzLMx/U1O6s5i\n/WP1apB8sYe2MIavfCpwnlINcHtYH2/2mnSMDaCVJWm3TshrXh9olOs8YMkpr7tu\nM210wzpTtl57Wvf/Ih7w94FDAtCLmCGewmjMxwGUDa8891Ae9vczAwmOTfSDsqL6\nPym38a+FzD0dhgg02yalHYw2zpjYbZ8r6O8aR2UACtAZ6YK3MidvGw7pcGPkT2Mk\nmijqdGilq0/5Gevdhj0n19l1OX2lSS5sQGZs7NEcT1KLbN7Y6cpf7BLKCDyCog2e\ndRJpKXzpjzJyKSA3InXzdxsOZA+tGVbQiMjDsciXusT4ZeL6BEn1WwpAJqmplZ6q\noe/lVLANAgMBAAECggEARFWJlt/rPfGg4qWgCJYg/W4plL7p0MWT27bUUSlVfFl3\ndzO4LdQOMcZOOsZz0RSgUui7vfdo2a89UWDjNJpba39famKIRqEj6z+k/J+fBi8B\nXRcW1kljf6M25ZkizadAPTePwt0LE4rG0/ZFdHebW5Db5Ka9NbLbcEh5GI7hpWMa\n/gdhqYK2hl1rft/psBL/qEOF15Hv7gZj7O3rPKHhLXlBZ+G6S6V7IZs4N9wZ/3mz\nvMO15IT3J3RRzSkuN3Vz8mb8KOPAAcP/mFDMvg0UlCFE0lARoKpbbQtfZpCZLzCS\nbtYbRN37jab840zqRVxYvecJ8GtMf9AjBKvL313uNwKBgQDOH8m/QHFDziDIKlA1\nlyrmcmJJjWK0VRLAORorFGF88/Qmq04euOVOhGKg+VfOcl8kIMGphVeA0pfJuJK0\nyLpiunKnJ4AMxZrg4lev+ImV3v+vwWOQj4j2vcOedqCnffp6L4Bx/80zv3d0xSV6\nK540CTRRJUvp9/YGbGZi+iZbDwKBgQC/A7R1d/khA5mmao4wJL0w3GkrmNUIRak4\n/+OigOvWyfaloUWRlcd/rr0o8sb2nyWIEZbZADE+0vNa5ouyBmlon5/BhZByeKsd\nNLugCR83wpJHwmDD6Qb7qleEgYC5c594NiOI9iBRK3ZkecMwayKu9yxtBJDGx2hv\n8r2BB+nzIwKBgF1zuhNU00Vroh8+V+lEJTYf7AHu8S5TV9IA0aVwcxakwC/8AMob\nCBPGH7Vd9vppjksh8su54cdNM3ZIkXMXgrGaWLsCRKMFwEdvN1RX+YESfpgftNVo\nzi8YMCWbIRFvI23cNX75+/4XM8CkVW6DchGjjq2vnDBytH+LDAyZ32PvAoGAYd0b\nEughyqlWim2jZcUc7TCv7XdDBhbyqVJpJTPaINSeuqNSylErwh4bqiQgjfBhwUIJ\nwCoaEO7xYYwm3FHupXzK09KDfDKYsMD4s/iYdvAIFB3hh94XBs9yQWA8PEeh12wd\nbqlzS0LySG4d8+uf/HaE22HwbvdxaZG7R6VvVnMCgYBfiHa3j6F8gwWScqV++ArH\n0IKGEs5TBKDFJDjVgPn9ImF54uH1CXjz6E6yPr9RkzjiNizPsCViBDCMvOVw4hKn\nDFLYJcJFjCPSu1kbKKxXfjwQ4O6MbKhG+1sHUlRTSuguliRzzJXACrqpRLFrDJIN\nlGVhVxtlUoPZ0+RpztWqBQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aktu-companion@clean-respect-430616-c9.iam.gserviceaccount.com",
+  "client_id": "117124637386964558115",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aktu-companion%40clean-respect-430616-c9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
