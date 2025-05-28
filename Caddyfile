@@ -1,5 +1,26 @@
-:8080
+{
+    frankenphp
+    order php_server before file_server
+}
 
-root * /app/public
-php_fastcgi
-file_server
+:80 {
+    root * public
+    encode gzip
+    
+    php_server
+    
+    @notfound {
+        not file
+        path_regexp ^/(.*)?$ /index.php?{query}&_url={path}
+    }
+    
+    rewrite @notfound /index.php
+    
+    file_server
+    
+    header {
+        X-Frame-Options "SAMEORIGIN"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+    }
+}
