@@ -56,7 +56,8 @@
                             <div class="card border-grey border-lighten-3 px-1 py-1 m-0">
                                 <div class="card-header border-0">
                                     <div class="card-title text-center">
-                                        <img src="/app-assets/images/logo/logo-dark.png" alt="branding logo">
+                                        <a href="{{ route('welcome') }}"><img src="https://upload.wikimedia.org/wikipedia/en/9/98/Dr._A.P.J._Abdul_Kalam_Technical_University_logo.png" alt="branding logo" style="height:120px;width:120px;"></a>
+                                        
                                     </div>
                                 </div>
                                 <div class="card-content">

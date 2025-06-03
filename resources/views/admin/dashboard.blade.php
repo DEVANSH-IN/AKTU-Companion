@@ -10,12 +10,15 @@
         content="Modern admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities with bitcoin dashboard.">
     <meta name="keywords"
         content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
+    <!-- Add this in your <head> -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta name="author" content="PIXINVENT">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Dashboard eCommerce - Modern Admin - Clean Bootstrap 4 Dashboard HTML Template + Bitcoin Dashboard</title>
     <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img.jpg">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700"
         rel="stylesheet">
@@ -66,20 +69,24 @@
     <nav
         class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-dark navbar-shadow">
         <div class="navbar-wrapper">
-            <div class="navbar-header">
-                <ul class="nav navbar-nav flex-row">
+            <div class="navbar-header"> 
+                <ul class="nav navbar-nav flex-row" >
                     <li class="nav-item mobile-menu d-lg-none mr-auto"><a
-                            class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
-                                class="ft-menu font-large-1"></i></a></li>
-                    <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img class="brand-logo"
-                                alt="modern admin logo" src="/app-assets/images/logo/logo.png">
-                            <h3 class="brand-text">Modern</h3>
+                            class="nav-link nav-menu-main menu-toggle hidden-xs" href="#">
+
                         </a></li>
-                    <li class="nav-item d-none d-lg-block nav-toggle"><a class="nav-link modern-nav-toggle pr-0"
-                            data-toggle="collapse"><i class="toggle-icon ft-toggle-right font-medium-3 white"
-                                data-ticon="ft-toggle-right"></i></a></li>
-                    <li class="nav-item d-lg-none"><a class="nav-link open-navbar-container" data-toggle="collapse"
-                            data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a></li>
+                    <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html">
+                        <img src="https://www.freeiconspng.com/thumbs/study-icon/study-icon-21.png" style="height:40px;width:40px" alt="">
+
+                            <h3 class="brand-text">AKTU Companion</h3>
+                        </a></li>
+                    <li class="nav-item d-none d-lg-block nav-toggle">
+                            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse">
+                                <i class="toggle-icon ft-toggle-right font-medium-3 white ms-3" data-ticon="ft-toggle-right"></i>
+                              </a>
+                    </li>
+                    <li class="nav-item d-lg-none mx-2"><a class="nav-link open-navbar-container" data-toggle="collapse"
+                            data-target="#navbar-mobile"><i class="la la-ellipsis-v mx-2"></i></a></li>
                 </ul>
             </div>
             <div class="navbar-container content">
@@ -166,7 +173,9 @@
     <!-- BEGIN: Vendor JS-->
     <script src="/app-assets/vendors/js/vendors.min.js"></script>
     <!-- BEGIN Vendor JS-->
-
+    <script>
+        feather.replace();
+    </script>
     <!-- BEGIN: Page Vendor JS-->
     <script src="/app-assets/vendors/js/charts/chartist.min.js"></script>
     <script src="/app-assets/vendors/js/charts/chartist-plugin-tooltip.min.js"></script>
