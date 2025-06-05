@@ -16,4 +16,7 @@ class StudentController extends Controller
         $quantums = Quantum::all();
         return view('user.quantum',compact('quantums'));
     }
+    public function free(){
+        return view('user.dashboard');
+    }
 }

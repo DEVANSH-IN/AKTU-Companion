@@ -35,7 +35,7 @@ Route::post('/admin/deletePYQ/{id}', [PYQController::class, 'deletePYQ'])->name(
 //Students routes
 Route::get('/student/viewPYQs',[StudentController::class,'showPYQ']);
 Route::get('/student/viewQuantums',[StudentController::class,'showQuantums']);
-
+Route::get('/freeforall',[StudentController::class,'free']);
 
 
 

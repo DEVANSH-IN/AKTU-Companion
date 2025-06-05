@@ -81,9 +81,9 @@
                             <h3 class="brand-text">AKTU Companion</h3>
                         </a></li>
                     <li class="nav-item d-none d-lg-block nav-toggle">
-                            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse">
-                                <i class="toggle-icon ft-toggle-right font-medium-3 white ms-3" data-ticon="ft-toggle-right"></i>
-                              </a>
+                        <a class="nav-link modern-nav-toggle pr-0 mt-2" data-toggle="collapse">
+                            <i class="toggle-icon ft-toggle-right font-medium-3 white ms-3" data-ticon="ft-toggle-right"></i>
+                          </a>
                     </li>
                     <li class="nav-item d-lg-none mx-2"><a class="nav-link open-navbar-container" data-toggle="collapse"
                             data-target="#navbar-mobile"><i class="la la-ellipsis-v mx-2"></i></a></li>

@@ -68,9 +68,11 @@
                     <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html"><img src="https://www.freeiconspng.com/thumbs/study-icon/study-icon-21.png" style="height:40px;width:40px" alt="">
                             <h3 class="brand-text">AKTU Companion</h3>
                         </a></li>
-                    <li class="nav-item d-none d-lg-block nav-toggle"><a class="nav-link modern-nav-toggle pr-0"
-                            data-toggle="collapse"><i class="toggle-icon ft-toggle-right font-medium-3 white"
-                                data-ticon="ft-toggle-right"></i></a></li>
+                    <li class="nav-item d-none d-lg-block nav-toggle">
+                        <a class="nav-link modern-nav-toggle pr-0 mt-2" data-toggle="collapse">
+                            <i class="toggle-icon ft-toggle-right font-medium-3 white ms-3" data-ticon="ft-toggle-right"></i>
+                          </a>
+                    </li>
                     <li class="nav-item d-lg-none"><a class="nav-link open-navbar-container" data-toggle="collapse"
                             data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a></li>
                 </ul>
